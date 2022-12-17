@@ -1,0 +1,24 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+}
+ul {
+    list-style: none;
+}
+.imagenArg{
+    width: 15%;
+}
+.contacto{
+    color: white;
+    font-size: 3em;
+}
+.lista-contactos{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
