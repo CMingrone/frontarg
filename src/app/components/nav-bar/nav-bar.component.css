@@ -22,3 +22,9 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
+
+@media ( max-width : 660px){
+    .lista-contactos{
+        width: 70%;
+    }
+}

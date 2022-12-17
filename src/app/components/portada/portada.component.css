@@ -41,11 +41,12 @@
 }
 .ubicacion{
     font-size: 1.5em;
+    z-index: 3;
 }
 .foto{
     position: relative;
-    width: 16%;
-    bottom: 100vh;
+    width: 16vw;
+    bottom: 100%;
     left: 12%;
     z-index: 3;
 }
@@ -71,7 +72,7 @@
     z-index: 3;
 }
 .descripcion{
-    width: 60%;
+    width: 80%;
 }
 .azul{
     position: relative;
@@ -90,4 +91,42 @@
     position: relative;
     left: 10%;
     top: 10%;
+}
+
+@media ( max-width : 861px){
+    .contenedor-secciones{
+        left: 0;
+        bottom: 75%;
+        width: 100%;
+    }
+    .link {
+        height: 5vh;
+    }
+    .foto {
+        bottom: 80%;
+        left: 43%;
+        width: 20%;
+    }
+    .nombre {
+        font-size: 2.5rem;
+        position: relative;
+        bottom: 8vh;
+    }
+    .ubicacion{
+       position:relative;
+       bottom: 8vh;
+    }
+}
+@media ( max-width : 580px){
+    .foto {
+        bottom: 85%;
+        left: 37%;
+        width: 30%;
+    }
+}
+@media ( max-width : 460px){
+    .foto {
+        width: 40%;
+        left: 33%;
+    }
 }
